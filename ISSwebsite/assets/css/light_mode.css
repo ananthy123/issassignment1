@@ -1,0 +1,104 @@
+/* light_mode.css */
+
+:root {
+    --color-body-inverse: #ddded6;
+    --color-heading-inverse: #101c24;
+    --color-base-inverse: #a3c9c5;
+    --color-base2-inverse: #f5d5cf;
+    --color-brand-inverse: #1f0780;
+    --color-brand2-inverse: #2100a7;
+}
+
+body.light-mode {
+    /* Light mode specific styles */
+    background-color: var(--color-body-inverse);
+    color: var(--color-heading-inverse);
+    font-family: var(--font-base);
+}
+
+body.light-mode h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading-inverse);
+}
+
+body.light-mode p,
+body.light-mode a {
+    color: var(--color-heading-inverse);
+}
+
+
+body.light-mode .bg-base {
+    background-color: var(--color-base-inverse);
+}
+
+body.light-mode .blog {
+    background-color: var(--color-base2-inverse);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+body.light-mode .blog h2 {
+    color: #eef3db;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+body.light-mode .blog p {
+    color: #494e31;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body.light-mode .blog a {
+    color: var(--color-brand-inverse);
+    text-decoration: none;
+}
+
+body.light-mode .blog a:hover {
+    text-decoration: underline;
+}
+
+body.light-mode .blog button {
+    background-color: var(--color-brand-inverse);
+    color: var(--color-base-inverse);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body.light-mode .blog button:hover {
+    background-color: #2100a7;
+}
+
+body.light-mode .blog span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #101c24;
+}
+
+body.light-mode .blog h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #a8c7a6;
+}
+
+body.light-mode .blog textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+body.light-mode .blog ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body.light-mode .blog ul li {
+    margin-bottom: 5px;
+}
